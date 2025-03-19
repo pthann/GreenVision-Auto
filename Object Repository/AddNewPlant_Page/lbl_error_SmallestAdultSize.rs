@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_SmallestAdultSize</name>
+   <name>lbl_error_SmallestAdultSize</name>
    <tag></tag>
-   <elementGuidId>c7ac020d-6f64-46af-83be-be8252b41c55</elementGuidId>
+   <elementGuidId>c8f0f373-88fb-4ce6-81eb-4302ec02ccde</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;input-minMatureSize&quot;]</value>
+         <value>//*[@id=&quot;root&quot;]/div/main/section/div[2]/form/div[13]/div/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

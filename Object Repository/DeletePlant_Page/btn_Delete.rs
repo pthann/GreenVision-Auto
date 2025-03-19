@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_SmallestAdultSize</name>
+   <name>btn_Delete</name>
    <tag></tag>
-   <elementGuidId>c7ac020d-6f64-46af-83be-be8252b41c55</elementGuidId>
+   <elementGuidId>0e43ba81-16db-4103-a2e8-f8a802743a1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;input-minMatureSize&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;delete-btn-2afc55c7-bcde-4c96-8581-00a8217ff5e6&quot;]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'),'http
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'),'hihiha')
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'),'hihi')
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'),'hihiha')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'),'kaka')
+//WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'),'kaka')
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_DifficultyLevel'),'Trung bình', true)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_SoilType'),'Đất sét', true)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'),'Cây thân thảo', true)

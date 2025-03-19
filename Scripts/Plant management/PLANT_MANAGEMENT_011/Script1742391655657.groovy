@@ -20,6 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/plants')
-
-WebUI.click(findTestObject('Object Repository/DeletePlant_Page/btn_Delete'))
-WebUI.click(findTestObject('Object Repository/DeletePlant_Page/btn_ConfirmDelete'))
+WebUI.click(findTestObject('Object Repository/DetailPlant_Page/btn_Detail'))
+WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/DetailPlant_Page/btn_Close'))

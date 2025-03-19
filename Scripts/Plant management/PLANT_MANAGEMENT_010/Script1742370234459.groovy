@@ -39,7 +39,7 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'),'Cây thân thảo', true)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_GrowingLocation'),'Trong nhà', true)
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_LowTemperature'),'23')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_HightTemperature'),'40')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_HightTemperature'),'90')
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_SmallestAdultSize'),'1')
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_MaximumAdultSize'),'40')
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Humidity'),'Thấp', true)

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_SmallestAdultSize</name>
+   <name>btn_Detail</name>
    <tag></tag>
-   <elementGuidId>c7ac020d-6f64-46af-83be-be8252b41c55</elementGuidId>
+   <elementGuidId>5b7b7880-114b-4538-903c-1a87ec07d9ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;input-minMatureSize&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;detail-btn-c4c6ab03-8c5c-45ec-a4d5-10694e619b27&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

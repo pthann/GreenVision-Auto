@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_SmallestAdultSize</name>
+   <name>lbl_error_HightTemperature</name>
    <tag></tag>
-   <elementGuidId>c7ac020d-6f64-46af-83be-be8252b41c55</elementGuidId>
+   <elementGuidId>1746df9a-16aa-4ce0-8171-c3655fd2ccc0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;input-minMatureSize&quot;]</value>
+         <value>//*[@id=&quot;22&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
