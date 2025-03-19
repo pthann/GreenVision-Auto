@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_Characteristic</name>
+   <name>txt_PlantName</name>
    <tag></tag>
-   <elementGuidId>d5bb970f-3539-4f29-891b-9f9d042d7cba</elementGuidId>
+   <elementGuidId>4299f3d8-ddbd-4ea5-80fd-b2df47204699</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[5]//input[1]</value>
+         <value>//*[@id=&quot;input-plant_name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1ce55a33-4d83-4663-a042-17d264497d8d</webElementGuid>
+      <webElementGuid>14f60724-2f6a-44a5-8d13-ec9f64e37955</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>80c0a5d5-6a07-4d5b-9d85-5ec462f38cfd</webElementGuid>
+      <webElementGuid>8ac00152-7be3-4b08-8003-bac43944a057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded border p-2</value>
-      <webElementGuid>0ede2680-c1cc-4bd4-ac12-1a987e9f4605</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Hôn</value>
-      <webElementGuid>2ce08582-8b1c-4a57-95bc-e17de55960af</webElementGuid>
+      <webElementGuid>2196fc52-aa19-48f1-b78a-e60d8e2b8bbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen&quot;]/main[@class=&quot;ml-24 flex-1&quot;]/section[@class=&quot;mt-20&quot;]/div[@class=&quot;mb-6 rounded-lg bg-white p-6 shadow-md&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;w-full rounded border p-2&quot;]</value>
-      <webElementGuid>60b38195-ea1e-48f2-844b-4aa4da3b600c</webElementGuid>
+      <webElementGuid>8c1b3033-cccc-4a84-ba73-3d1916a76939</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Hôn']</value>
-      <webElementGuid>041f992c-a350-45b5-933d-5976e5fe0425</webElementGuid>
+      <value>//input[@value='']</value>
+      <webElementGuid>4b87a0a4-bfbe-4e0c-ab24-8880a3b0cbbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/section/div[2]/form/div/input</value>
-      <webElementGuid>27a232d3-988b-44a5-9a0b-3ccb0ba850c7</webElementGuid>
+      <webElementGuid>496ad1f5-fa04-4222-9e0e-7e6fd0aba5f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/input</value>
-      <webElementGuid>266efbbf-3cec-496e-a09b-04b8cbf8afc6</webElementGuid>
+      <webElementGuid>91b35d0f-db29-4879-baf3-bb717325208c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>29742c61-8652-4af1-b29d-08b71581143a</webElementGuid>
+      <webElementGuid>5ae7eb5d-ee9d-4c6b-a5da-f041b268978d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

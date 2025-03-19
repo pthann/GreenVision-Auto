@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/plants')
+WebUI.navigateToUrl('http://localhost:5173/')
 
-//WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
+WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Plants'))
 
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Addplant'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Hồng Hồng')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Hồng')
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_ScientificName'), 'Hồng Lan')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'),'https://file.hstatic.net/200000455999/article/y_nghia_hoa_hong_a3efe1fd01cc435a8c85d1ddfd71748f.png')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'),'cay hong lan song o')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'),'hi hi hi')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'),'hi hi ha')
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'),'ka ka')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'),'https://drive.google.com/file/d/1SN8JzAK8gi9kyrdoQpPjcmp6O4CKX6of/view?usp=drive_link')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'),'hihiha')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'),'hihi')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'),'hihiha')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'),'kaka')
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_DifficultyLevel'),'Trung bình', true)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_SoilType'),'Đất sét', true)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'),'Cây thân thảo', true)
