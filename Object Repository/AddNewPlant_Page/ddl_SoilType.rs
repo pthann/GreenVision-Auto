@@ -6,11 +6,11 @@
    <elementGuidId>b817ec50-7888-4ba2-858b-1ae5f5130be6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[9]//select[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;input-soil_type&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>145c8c48-f4d0-4713-8b20-090ccda168da</webElementGuid>
+      <webElementGuid>8dc63bfd-0f60-4c83-91f4-ed2818b520f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f75ee36b-4e0e-4fbe-aed4-b13a39bdd647</webElementGuid>
+      <webElementGuid>ec168a73-0ef6-4f35-ab02-31dad6385c2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded border p-2</value>
-      <webElementGuid>bc54e31b-5524-4802-8c6d-3b21fca08433</webElementGuid>
+      <webElementGuid>e347b138-37c8-487b-b6bb-6ec15e1ac2aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen&quot;]/main[@class=&quot;ml-24 flex-1&quot;]/section[@class=&quot;mt-20&quot;]/div[@class=&quot;mb-6 rounded-lg bg-white p-6 shadow-md&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;w-full rounded border p-2&quot;]</value>
-      <webElementGuid>db1d4ab6-2106-4a48-8900-3b4d1ac9a4ed</webElementGuid>
+      <webElementGuid>69a72e91-46d5-4078-9400-94e1925e0fba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[4]</value>
-      <webElementGuid>90e918ab-be4b-4209-bea1-0d48d29af0bb</webElementGuid>
+      <webElementGuid>b959d2e6-4d27-4e03-ae81-ab9902075d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/section/div[2]/form/div[4]/input</value>
-      <webElementGuid>061d3b78-4d01-4d08-a6d4-c5602b1f325c</webElementGuid>
+      <webElementGuid>cfe9985a-9976-492f-a3be-fca075d29215</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/input</value>
-      <webElementGuid>ba086141-d052-4370-8b72-14161dccaea7</webElementGuid>
+      <webElementGuid>55e0fd01-679d-4c0e-adb1-ab527b714357</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>ffe819d6-7f19-4bad-820b-71fbc5a6b4d2</webElementGuid>
+      <webElementGuid>37b14c6e-8473-48c0-8255-d33fa0dc2df7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

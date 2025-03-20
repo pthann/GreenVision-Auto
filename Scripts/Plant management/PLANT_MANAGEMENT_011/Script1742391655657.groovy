@@ -23,3 +23,7 @@ WebUI.navigateToUrl('http://localhost:5173/plants')
 WebUI.click(findTestObject('Object Repository/DetailPlant_Page/btn_Detail'))
 WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/DetailPlant_Page/btn_Close'))
+WebUI.delay(2)
+
+// Đóng trình duyệt
+WebUI.closeBrowser()

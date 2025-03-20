@@ -23,3 +23,7 @@ WebUI.navigateToUrl('http://localhost:5173/plants')
 
 WebUI.click(findTestObject('Object Repository/DeletePlant_Page/btn_Delete'))
 WebUI.click(findTestObject('Object Repository/DeletePlant_Page/btn_ConfirmDelete'))
+WebUI.delay(2)
+
+// Đóng trình duyệt
+WebUI.closeBrowser()

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>288482e2-2e5e-4499-875e-ac3db2b5e56a</webElementGuid>
+      <webElementGuid>21973e0c-58c7-4d5a-bbb9-cbaa08f9376f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d7ee9173-5e1b-423b-a733-180ad4aa289e</webElementGuid>
+      <webElementGuid>a73c95f6-b2b0-40f1-93d9-5a16fdf24499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded border p-2</value>
-      <webElementGuid>aaaaf9c0-45ba-4bfd-8e37-0acb6442f70b</webElementGuid>
+      <webElementGuid>3e78a06d-ea0e-4418-8dfa-1833180c0cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Hông</value>
-      <webElementGuid>ee3e6264-97a1-4a9a-8146-58b34d877a42</webElementGuid>
+      <webElementGuid>66b21917-9c76-4813-90a8-30806f6313bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen&quot;]/main[@class=&quot;ml-24 flex-1&quot;]/section[@class=&quot;mt-20&quot;]/div[@class=&quot;mb-6 rounded-lg bg-white p-6 shadow-md&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;w-full rounded border p-2&quot;]</value>
-      <webElementGuid>29347b03-4aec-4de1-8fef-5f8426d9f88a</webElementGuid>
+      <webElementGuid>163cb2d4-9de2-4fa6-abf5-63566599ae83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Hông']</value>
-      <webElementGuid>94173d14-4656-466c-9978-953cfc3664eb</webElementGuid>
+      <webElementGuid>854fffc3-47b7-42dc-bba7-ad50b358fb74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/section/div[2]/form/div/input</value>
-      <webElementGuid>31487d3d-c60c-4a24-bf91-c03586b11b88</webElementGuid>
+      <webElementGuid>09e709da-e9fe-43f6-b01d-50e1a26ea3cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/input</value>
-      <webElementGuid>06e86c09-8279-462a-8335-4fde8c9970f1</webElementGuid>
+      <webElementGuid>62cba78c-e8eb-487f-a3ad-aae6dcac961b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>172cb72e-6f86-4d3f-8f73-1ab53e091c2a</webElementGuid>
+      <webElementGuid>ad5ca6dd-f823-491b-ab90-9500eb2bd3dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -25,27 +25,27 @@ WebUI.navigateToUrl('http://localhost:5173/plants')
 WebUI.click(findTestObject('Object Repository/EditPlant_Page/btn_EditPlant'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Hoa Lan')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Haaaaaaaaa')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_ScientificName'), 'Orchidaceae')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_ScientificName'), 'Hh')
 
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'), 'https://file.hstatic.net/200000455999/article/y_nghia_hoa_hong_a3efe1fd01cc435a8c85d1ddfd71748f.png')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'), 'Loai chiu nhiet')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'), 'cay')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'), 'Có màu hồng nhạt')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'), 'hi hi ')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'), 'Trang trí')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'), 'hi hi ha')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'), 'Trang trí nhà cửa')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'), 'ka ka')
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_DifficultyLevel'), 'Trung bình', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_DifficultyLevel'), 'Trung bình', false)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_SoilType'), 'Đất sét', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_SoilType'), 'Đất sét', false)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'), 'Cây thân thảo', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'), 'Cây thân thảo', false)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_GrowingLocation'), 'Trong nhà', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_GrowingLocation'), 'Trong nhà', false)
 
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_LowTemperature'), '23')
 
@@ -63,8 +63,7 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl
 
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Save'))
 
-//WebUI.callTestCase(findTestCase('Plant management/PLANT_MANAGEMENT_011'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Plant management/PLANT_MANAGEMENT_011'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Đóng trình duyệt
-WebUI.closeBrowser()
+//WebUI.verifyElementText(findTestObject('Object Repository/DetailPlant_Page/lbl_PlantDetailName'), 'Haaaaaaaaa')
+

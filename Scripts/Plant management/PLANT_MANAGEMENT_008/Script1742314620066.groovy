@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Plants'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Addplant'))
 

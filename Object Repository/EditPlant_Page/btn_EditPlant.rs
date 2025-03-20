@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Plants</name>
+   <name>btn_EditPlant</name>
    <tag></tag>
-   <elementGuidId>19af18f0-091d-41fb-afbe-c3a45ddab4d7</elementGuidId>
+   <elementGuidId>bf488386-28c4-4485-8955-5ea5cb35f62e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div/div[1]/div[2]/button</value>
+         <value>//*[@id=&quot;update-btn-78b7a6e1-8a26-4931-9a2e-b4803c55db1b&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

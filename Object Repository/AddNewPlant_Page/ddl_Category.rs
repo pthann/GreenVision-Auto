@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> //div[10]//select[1]</value>
+         <value>//*[@id=&quot;input-category_id&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>284565f4-1dd9-47e3-a38a-1017e22e75ec</webElementGuid>
+      <webElementGuid>b4645a92-4380-403b-8cfa-3a5fcd9a9cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>ee4e35a0-5fbb-46e3-aa43-ea5d08455265</webElementGuid>
+      <webElementGuid>38cc87d4-b87c-44e7-828b-ffece519909d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>0eb1576c-ec77-4afb-b2ae-c6302a5b3079</webElementGuid>
+      <webElementGuid>318c8ecf-9abe-4714-90dc-3158c75ab0f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>8a273a10-2fd6-4934-a8da-b62b021e6f1a</webElementGuid>
+      <webElementGuid>4f136810-df62-44af-bdb6-7c47079f76bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>0d97bc2b-e33a-42bf-b452-7aba9440b460</webElementGuid>
+      <webElementGuid>7490aee0-7697-437e-b275-55f4c08298b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>26c7dc76-bdcf-4cea-a36f-70ad0e2800be</webElementGuid>
+      <webElementGuid>0b710307-e12c-4784-8c94-2583de25c8b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>5a36529e-a882-4650-930a-d2f81cbf3ace</webElementGuid>
+      <webElementGuid>506c010a-ecdb-4e51-bc8e-a93d5a24f094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>575d6926-b291-4af1-baa0-bfe82cce0693</webElementGuid>
+      <webElementGuid>a29e7005-fb1a-40dc-a65d-dbc0a3109633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>stroke-linecap</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>2bdd9ec1-5b76-4877-a17b-f572b9181ee8</webElementGuid>
+      <webElementGuid>c8797d2e-51fb-4033-97dc-aea0aabcd911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>stroke-linejoin</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>51cab9d8-8499-436c-899d-2efef88e91bf</webElementGuid>
+      <webElementGuid>3d4150ae-1253-4385-ac8e-9d93c90486e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lucide lucide-sprout h-6 w-6 transition-colors text-gray-400 group-hover:text-green-500</value>
-      <webElementGuid>e009cfd9-d35d-4254-aa83-2725a8dc4ca3</webElementGuid>
+      <webElementGuid>494fec10-ed1c-480b-9393-7f00aa18ea59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen&quot;]/div[@class=&quot;fixed flex h-screen w-24 flex-col items-center justify-between bg-black py-4&quot;]/div[@class=&quot;flex w-full flex-col items-center gap-4&quot;]/div[@class=&quot;group relative&quot;]/button[@class=&quot;flex h-14 w-14 items-center justify-center rounded-xl transition-colors hover:bg-green-500/20&quot;]/svg[@class=&quot;lucide lucide-sprout h-6 w-6 transition-colors text-gray-400 group-hover:text-green-500&quot;]</value>
-      <webElementGuid>41b7d0b8-b402-4f15-976c-2f7fccd86c8b</webElementGuid>
+      <webElementGuid>d505cdf4-fb06-4761-8a41-10c7b830537e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plants'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>01474ee0-c6f1-4aee-941f-ca1a8c2fa874</webElementGuid>
+      <webElementGuid>d97562f4-2f5d-4eb2-97a6-61506585ff00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::*[name()='svg'][1]</value>
-      <webElementGuid>d080f12e-f80a-4087-8d37-e194957d110a</webElementGuid>
+      <webElementGuid>131c70c9-a2bf-4eb8-a068-3699cb7483a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plants'])[2]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>857352f9-db8c-4ad9-9bea-5857ce5c38e2</webElementGuid>
+      <webElementGuid>f6980b56-fbc8-4d0c-98b1-5d2f82dd2527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,6 +148,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>c5c3e8fd-4261-4d74-9add-933c05925d0d</webElementGuid>
+      <webElementGuid>d63c8c20-7b91-4b14-ab47-f9dd72388d31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

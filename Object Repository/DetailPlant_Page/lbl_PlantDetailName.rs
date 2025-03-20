@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ddl_BrowseContent</name>
+   <name>lbl_PlantDetailName</name>
    <tag></tag>
-   <elementGuidId>7bfcde9c-6f1a-4db4-9bb9-9c9befa91055</elementGuidId>
+   <elementGuidId>f7d767e2-7aae-46c3-90aa-9134bb4b619f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;input-approvedContent&quot;]</value>
+         <value>//*[@id=&quot;root&quot;]/div/main/section/div[3]/div/h2/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

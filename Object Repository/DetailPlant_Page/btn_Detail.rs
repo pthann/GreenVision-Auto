@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;detail-btn-c4c6ab03-8c5c-45ec-a4d5-10694e619b27&quot;]</value>
+         <value>//*[@id=&quot;detail-btn-78b7a6e1-8a26-4931-9a2e-b4803c55db1b&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

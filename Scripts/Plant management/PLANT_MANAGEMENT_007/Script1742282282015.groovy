@@ -21,21 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/plants')
 
-//WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
+// WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
 
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Addplant'))
 
-//WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
+// WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
 
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Save'))
-
-
-
+WebUI.delay(1)
 
 // Assert that error messages are displayed
-//WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_NamePlant'),'Tên cây trồng là bắt buộc', false)
+// WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_NamePlant'),'Tên cây trồng là bắt buộc', false)
 WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_NamePlant'), 'Tên cây trồng là bắt buộc')
+WebUI.delay(1)
 WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_Scient'),'Tên khoa học là bắt buộc')
+WebUI.delay(1)
 WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_Image'),'Hình ảnh là bắt buộc')
+WebUI.delay(1)
 WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_Overview'),'Mô tả tổng quan là bắt buộc')
+WebUI.delay(1)
 WebUI.verifyElementText(findTestObject('Object Repository/AddNewPlant_Page/lbl_error_Category'),'Danh mục là bắt buộc')
+
+// Scroll to the top of the page
+WebUI.scrollToPosition(0, 0)

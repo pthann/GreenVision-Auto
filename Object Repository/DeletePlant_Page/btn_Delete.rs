@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;delete-btn-2afc55c7-bcde-4c96-8581-00a8217ff5e6&quot;]&#xd;
+         <value>//*[@id=&quot;delete-btn-21b43a55-4dc1-4bb7-bf22-f55e25468bee&quot;]&#xd;
 </value>
       </entry>
    </selectorCollection>
