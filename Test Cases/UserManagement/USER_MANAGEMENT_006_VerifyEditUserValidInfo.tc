@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USER_MANAGEMENT_006_VerifyEditUserValidInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06428b32-c999-4464-b77f-89c3a1e43f10</testCaseGuid>
+</TestCaseEntity>

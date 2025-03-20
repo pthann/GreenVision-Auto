@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USER_MANAGEMENT_005_VerifyAccountDeactivationButton</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b866116-73b7-49cd-81bc-300d0a85f6be</testCaseGuid>
+</TestCaseEntity>
