@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOGIN_ADMIN_003_VerifyLoginEmptyInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>625ef1f4-1e9f-41cf-889e-42986534be3a</testCaseGuid>
+</TestCaseEntity>

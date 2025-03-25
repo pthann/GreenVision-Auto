@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOGIN_ADMIN_001_VerifyLoginValidInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd61bc55-e870-4cd6-81a5-7064ccecea81</testCaseGuid>
+</TestCaseEntity>
