@@ -19,10 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/plants')
+WebUI.navigateToUrl('http://localhost:5173/login')
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Object Repository/LoginPage/hdl_Login')), "Đăng nhập")
+WebUI.setText(findTestObject('Object Repository/LoginPage/txt_email'), 'string@gmail.com')
+WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Password'), '123123123')
+
+WebUI.click(findTestObject('Object Repository/LoginPage/btn_Login'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
-
+WebUI.click(findTestObject('Object Repository/EditPlant_Page/btn_UP'))
 WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/btn_Addplant'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
@@ -33,9 +39,9 @@ WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_ScientificN
 WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'),'https://file.hstatic.net/200000455999/article/y_nghia_hoa_hong_a3efe1fd01cc435a8c85d1ddfd71748f.png')
 WebUI.delay(1)
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'),'Có,  khả,  năng,  chịu,  hạn')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'),'Có khả năng chịu hạn')
 WebUI.delay(1)
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'),'Lá lớn, hình tim ')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'),'Lá lớn hình tim ')
 WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'),'Cải thiện không gian sống')
 WebUI.delay(1)

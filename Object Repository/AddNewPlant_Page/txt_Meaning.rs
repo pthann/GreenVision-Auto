@@ -6,12 +6,12 @@
    <elementGuidId>d5d2e7ee-9243-4046-8364-b07fedd9470f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='input-meaning']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.w-full.rounded.border.p-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;input-meaning&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>31814f83-4b73-4333-b35d-90cfa843fc87</webElementGuid>
+      <webElementGuid>13bf7679-2f55-4e59-917a-c04c0426f90c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6596dd67-36f7-436e-bd23-e669aba90657</webElementGuid>
+      <webElementGuid>4de28f6f-ce3b-4699-89de-271c4954b295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded border p-2</value>
-      <webElementGuid>8850ed1f-0acf-4257-8d9b-6679789144cb</webElementGuid>
+      <webElementGuid>fe619e86-03e3-4dc0-bfa7-f6cb07eb7301</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Hồng</value>
-      <webElementGuid>73d38725-d9f7-40e7-bdf6-7efc2e583fe8</webElementGuid>
+      <webElementGuid>db24943e-fe1b-444b-af88-b74aa12af290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex min-h-screen&quot;]/main[@class=&quot;ml-24 flex-1&quot;]/section[@class=&quot;mt-20&quot;]/div[@class=&quot;mb-6 rounded-lg bg-white p-6 shadow-md&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;w-full rounded border p-2&quot;]</value>
-      <webElementGuid>a6a329c6-07b8-4386-8432-7b768a0d1429</webElementGuid>
+      <webElementGuid>ec3e5f0b-dfcf-48df-bcc9-a7c1bed5fdc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Hồng']</value>
-      <webElementGuid>9f2a26b7-2cce-4ef6-a5d4-eed7bbc87abe</webElementGuid>
+      <webElementGuid>cea26f38-44f4-4f10-a446-7109b9e0e34a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/section/div[2]/form/div/input</value>
-      <webElementGuid>242b0222-6bf9-46ab-bbc1-f0a8d3318d89</webElementGuid>
+      <webElementGuid>2c7bc2a7-5137-4963-98c4-fe9137a6f546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/input</value>
-      <webElementGuid>1a426394-844d-43ba-b686-a808adf9b41b</webElementGuid>
+      <webElementGuid>ca5f7a8b-b8d1-4c3b-bf97-5f7fbff769b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>0ba102fc-2e75-47c1-8c2b-bed2d52acd4a</webElementGuid>
+      <webElementGuid>ee06bbef-322f-4fbe-aad1-711d2e280983</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

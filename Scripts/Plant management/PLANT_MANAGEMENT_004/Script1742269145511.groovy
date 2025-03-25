@@ -19,13 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/plants')
+WebUI.navigateToUrl('http://localhost:5173/login')
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Object Repository/LoginPage/hdl_Login')), "Đăng nhập")
+WebUI.setText(findTestObject('Object Repository/LoginPage/txt_email'), 'string@gmail.com')
+WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Password'), '123123123')
+
+WebUI.click(findTestObject('Object Repository/LoginPage/btn_Login'))
+
+//WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
+WebUI.click(findTestObject('Object Repository/EditPlant_Page/btn_UP'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/ddl_Category'))
 WebUI.click(findTestObject('Object Repository/EditPlant_Page/btn_EditPlant'))
 
 //WebUI.click(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'))
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Hoa Lan')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_PlantName'), 'Hoa Linh Lan hồng')
 
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_ScientificName'), 'Orchidaceae')
 
@@ -33,11 +42,11 @@ WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_URL'), 'htt
 
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Overview'), 'Loai chiu nhiet')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'), 'Có màu hồng nhạt')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Characteristic'), 'Có màu hồng nhạt,vàng và trắng')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'), 'Trang trí')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Uses'), 'Trang trí, tặng quà vào dịp lễ')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'), 'Trang trí nhà cửa')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_Meaning'), 'Trang trí nhà cửa, văn phòng, công ty')
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_DifficultyLevel'), 'Trung bình', true)
 
@@ -47,9 +56,9 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/AddNewPlant_Page/ddl_GrowingLocation'), 'Trong nhà', true)
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_LowTemperature'), '23')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_LowTemperature'), '26')
 
-WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_HightTemperature'), '40')
+WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_HightTemperature'), '42')
 
 WebUI.setText(findTestObject('Object Repository/AddNewPlant_Page/txt_SmallestAdultSize'), '1')
 

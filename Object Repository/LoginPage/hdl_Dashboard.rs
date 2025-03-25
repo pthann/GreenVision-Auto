@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_EditPlant</name>
+   <name>hdl_Dashboard</name>
    <tag></tag>
-   <elementGuidId>bf488386-28c4-4485-8955-5ea5cb35f62e</elementGuidId>
+   <elementGuidId>269caa76-6f2f-4566-9b11-ffd7dea429a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;update-btn-c4c6ab03-8c5c-45ec-a4d5-10694e619b27&quot;]</value>
+         <value>//*[@id=&quot;root&quot;]/div/main/header/div/div[1]/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
