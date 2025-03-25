@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_VerifyCreateValidUser</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>badfe4ba-3de2-4ed3-a836-71e198a21242</testCaseGuid>
-</TestCaseEntity>

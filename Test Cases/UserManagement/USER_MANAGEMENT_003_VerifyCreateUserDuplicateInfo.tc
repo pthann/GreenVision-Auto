@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USER_MANAGEMENT_003_VerifyCreateUserDuplicateInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d90c4d1-7e3c-43de-9ec5-665e54f6d6ae</testCaseGuid>
+</TestCaseEntity>

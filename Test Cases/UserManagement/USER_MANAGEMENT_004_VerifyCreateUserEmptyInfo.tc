@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USER_MANAGEMENT_004_VerifyCreateUserEmptyInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d591be19-1d81-46c7-8808-dbb73f7dec0e</testCaseGuid>
+</TestCaseEntity>

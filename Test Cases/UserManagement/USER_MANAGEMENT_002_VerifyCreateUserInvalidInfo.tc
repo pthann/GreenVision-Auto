@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USER_MANAGEMENT_002_VerifyCreateUserInvalidInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1657c4a4-f5d3-412b-8d35-c275455c0461</testCaseGuid>
+</TestCaseEntity>
